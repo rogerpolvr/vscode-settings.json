@@ -10,7 +10,7 @@
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
 
-  // Não agrupa pastas vazias file explorer
+  // Não agrupa pastas vazias - File explorer
   "explorer.compactFolders": false,
 
   // AutoComplete do HTML dentro do JavaScript (JSX)
@@ -34,7 +34,7 @@
   "editor.rulers": [80, 120],
 
   //Evita que o editor adicione cores em variáveis de acordo com seu tipo,
-  // parmanecendo apenas as cores padrões do tema.
+  // Permanece apenas as cores padrões do tema.
   "editor.semanticHighlighting.enabled": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
