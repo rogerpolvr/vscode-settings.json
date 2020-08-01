@@ -4,13 +4,12 @@
   "editor.fontSize": 16,
   "window.titleBarStyle": "custom",
   "editor.minimap.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
 
   // Font e Font Ligatures
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
 
-  // Não agrupa pastas vazias - File explorer
+  // Não agrupa pastas vazias file explorer
   "explorer.compactFolders": false,
 
   // AutoComplete do HTML dentro do JavaScript (JSX)
@@ -24,7 +23,7 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.colorTheme": "Horizon Bold",
+  "workbench.colorTheme": "Horizon",
 
   //Evita que o VSCode tente corrigir importações automaticamente
   "javascript.updateImportsOnFileMove.enabled": "never",
@@ -34,12 +33,18 @@
   "editor.rulers": [80, 120],
 
   //Evita que o editor adicione cores em variáveis de acordo com seu tipo,
-  // Permanece apenas as cores padrões do tema.
+  // parmanecendo apenas as cores padrões do tema.
   "editor.semanticHighlighting.enabled": false,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   // Formata o código ao salvar o arquivo.
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1,
+  "editor.renderIndentGuides": false,
+  "editor.renderControlCharacters": true,
+  "git.enableSmartCommit": true,
+  "sync.gist": "d9385376943d65c2c8a8ef864f81b480"
 }
